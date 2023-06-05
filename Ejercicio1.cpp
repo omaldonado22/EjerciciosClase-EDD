@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
 int arreglo [10];
+int aux;
 for(int x=0; x<10;x++){
 
     cin>>arreglo[10];
@@ -12,7 +13,7 @@ for(int x=0; x<10;x++){
 for(int e=0; e<10;e++){
 for(int p=0;p<9; p++){
 if(arreglo[p]>arreglo[p+1]){
-int aux=arreglo[p];
+ aux=arreglo[p];
 arreglo[p]=arreglo[p+1];
 arreglo[p+1]=aux;
 
