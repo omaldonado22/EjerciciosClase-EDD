@@ -7,7 +7,7 @@ int arreglo [10];
 int aux;
 for(int x=0; x<10;x++){
 
-    cin>>arreglo[10];
+    cin>>arreglo[x];
 }
 
 for(int e=0; e<10;e++){
