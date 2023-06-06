@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-int arreglo [10];
+int arreglo[10];
 int aux;
 for(int x=0; x<10;x++){
 
@@ -22,7 +22,7 @@ arreglo[p+1]=aux;
 }
 cout<<"\nImpresion de los elementos del arreglo ordenado\n";
 for(int i=0; i<10;i++){
-cout<<"["<<i<<"]-->"<<arreglo[i]<<"\n";
+cout<<"\n["<<i<<"]-->"<<arreglo[i]<<"\n";
 }
 
 return 0;
